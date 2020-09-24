@@ -1,0 +1,1 @@
+gcc main.c push_func.c rotate_func.c revrot_func.c swap_func.c ../libft/ft_lstlast.c -g

@@ -1,0 +1,1 @@
+gcc main.c ft_strsplit.c reading.c whitespace.c libft_cp.c ./libft/ft_lstnew.c ./libft/ft_lstdelone.c ./libft/ft_lstadd_back.c ./libft/ft_lstlast.c ./libft/ft_lstclear.c ./stringtonumbers.c -g
