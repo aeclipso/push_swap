@@ -6,13 +6,13 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 03:13:47 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/09/06 04:16:54 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/09/25 16:22:12 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "pushswap.h"
 
-int			main(int argc, char **argv)
+int					main(int argc, char **argv)
 {
 	if (argc > 1)
 	{
@@ -38,13 +38,12 @@ static void			ft_lstdebugprintint(t_list *i)
 	}
 }
 
-int			ft_core(int argc, char **argv)
+int					ft_core(int argc, char **argv)
 {
 	t_list	*reading_list;
 	t_list	*int_list;
 
-	
-	if(!(ft_reading(argc, argv, &reading_list)))
+	if (!(ft_reading(argc, argv, &reading_list)))
 	{
 		ft_lstclear(&reading_list, free);
 		ft_error();
@@ -57,7 +56,7 @@ int			ft_core(int argc, char **argv)
 	ft_lstclear(&int_list, free);
 }
 
-void	ft_error(void)
+void				ft_error(void)
 {
 	write(2, "Error\n", 6);
 }

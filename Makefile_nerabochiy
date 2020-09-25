@@ -1,0 +1,42 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile_nerabochiy                                :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/09/25 15:50:59 by aeclipso          #+#    #+#              #
+#    Updated: 2020/09/25 16:14:53 by aeclipso         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+SRC=./sort_func/push_func.c\
+	./sort_func/revrot_func.c\
+	./sort_func/rotate_func.c\
+	./sort_func/swap_func.c\
+	
+OBJ = $(SRC:.c=.o)
+INC = ./inlude/
+LIBFT = ./libft-printf/libft.a
+LIB_PATH := ./libft-printf/
+NAME1 = push_swap
+NAME2 = checker
+FLAGS = -Wall -Wextra -Werror
+
+all:	$(NAME)
+
+$(NAME1): $(LIBFT) $(OBJ) $(INC) ./inlude/pushswap.h
+		@gcc $(SRC) 
+
+$(LIBFT): $(LIB_PATH)/inlude/libft.h
+	@make -C $(LIB_PATH)
+
+clean:
+	@rm -rf $(NAME)
+	@make clean -C $(LIB_PATH)
+
+fclean:
+	@rm -rf $(NAME)
+	@make fclean -C $(LIB_PATH)
+
+re:		fclean all

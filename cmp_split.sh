@@ -1,1 +1,0 @@
-gcc ft_strsplit.c -o split -g 
