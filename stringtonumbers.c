@@ -6,13 +6,13 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/25 16:22:53 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/09/25 16:26:45 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/09/25 16:38:47 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "pushswap.h"
 
-int					ft_isdigit(int c)
+int					ft_isdigit(int c)					//TODO: удалить, т.к. есть в либе
 {
 	if (c >= 48 && c <= 57)
 	{
@@ -47,7 +47,7 @@ int					ft_atoi(const char *nptr)
 	else if (sign == 1 && nbr > 2147483647)
 		return (-1);
 	else
-		return (sign * (int)nbr);
+		return (sign * (int)nbr); //TODO: возможно перенести в либфт, чтобы не было конфликтов ???
 }
 
 int					*ft_createoneint(int value)

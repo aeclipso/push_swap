@@ -1,5 +1,5 @@
 //
-// Created by aeclipso on 9/12/20.
+// Created by aeclipso on 9/12/20. debugging file 
 //
 
 #include "pushswap.h"
@@ -72,7 +72,7 @@ int					ft_atoi(const char *nptr)
 {
 	size_t			nbr;
 	int				sign;
-	
+
 	sign = 1;
 	nbr = 0;
 	while (*nptr == ' ')
