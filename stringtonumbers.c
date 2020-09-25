@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/25 16:22:53 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/09/25 17:21:45 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/09/25 17:42:27 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,20 +60,11 @@ int					*ft_createoneint(int value)
 	return (value_temp);
 }
 
-static void			ft_lstdebugprintint(t_list *i)
-{
-	while (i)
-	{
-		printf("INT\t%i\n", ((int *)(i->content))[0]);
-		i = i->next;
-	}
-}
-
 /*
- * TODO: сделать валидацию на инты, чтобы ни больше, ни меньше
- * TODO: валидация на невалидные аргументы, почему то руинится, если передать строку с буквами
- * TODO: АТОИ
- */
+** TODO: сделать валидацию на инты, чтобы ни больше, ни меньше
+** TODO: валидация на невалидные аргументы, почему то руинится, если передать строку с буквами
+** TODO: АТОИ
+*/
 
 int			ft_stringtonumbers(t_list *reading_list, t_list **int_list)
 {
@@ -87,5 +78,5 @@ int			ft_stringtonumbers(t_list *reading_list, t_list **int_list)
 		reading_list = reading_list->next;
 	}
 //	ft_lstdebugprintint(int_list);
-return (1);
+	return (1);
 }
