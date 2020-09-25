@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 03:22:24 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/09/07 03:15:09 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/09/25 16:46:30 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,12 +63,12 @@ static int	ft_initlst(char *str, t_list **shuffle)
 	return (1);
 }
 
-static int						ft_isdigit(int c)
-{
-	if (c >= 48 && c <= 57)
-		return (1);
-	return (0);
-}
+// static int						ft_isdigit(int c)
+// {
+// 	if (c >= 48 && c <= 57)
+// 		return (1);
+// 	return (0);
+// }
 
 int			ft_validateint(t_list *struct_list)
 {

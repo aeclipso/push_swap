@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/25 16:22:53 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/09/25 16:38:47 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/09/25 17:21:45 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,4 +87,5 @@ int			ft_stringtonumbers(t_list *reading_list, t_list **int_list)
 		reading_list = reading_list->next;
 	}
 //	ft_lstdebugprintint(int_list);
+return (1);
 }

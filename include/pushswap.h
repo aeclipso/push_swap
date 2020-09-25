@@ -3,7 +3,7 @@
 
 # include <unistd.h>
 # include <stdlib.h>
-# include "./libft/libft.h"
+# include "libft.h"
 # include <stdio.h> //DEBUG
 
 int				ft_core(int argc, char **argv);

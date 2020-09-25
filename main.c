@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 03:13:47 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/09/25 16:22:12 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/09/25 16:46:06 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ int					ft_core(int argc, char **argv)
 	ft_lstclear(&reading_list, free);
 	ft_lstdebugprintint(int_list);
 	ft_lstclear(&int_list, free);
+	return(1);
 }
 
 void				ft_error(void)
