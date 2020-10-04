@@ -1,5 +1,4 @@
 #include "func.h"
-#include "../libft/libft.h"
 #include <unistd.h>
 
 void		swap(t_list **top, char stack)

@@ -3,8 +3,25 @@
 
 # include <unistd.h>
 # include <stdlib.h>
-# include "libft.h"
+//# include "libft.h"
 # include <stdio.h> //DEBUG
+# include "../libft-printf/include/libft.h"
+
+typedef struct		s_stacks
+{
+	t_list			*a_stack;
+	t_list			*b_stack;
+	int				min;
+	int				max;
+	int				length;
+}					t_stacks;
+
+typedef struct		s_elemstack
+{
+	int				index;
+	int 			flag_index;
+	int				number;
+}					t_elemstack;
 
 int				ft_core(int argc, char **argv);
 void			ft_error(void);
@@ -25,5 +42,6 @@ size_t			ft_strlen(const char *str);
 char			*ft_strdup(const char *s);
 
 
-int					ft_atoi(const char *nptr);
+int					ft_creategeneral(t_stacks *general, t_list *int_list);
+void				ft_cleargeneral(t_stacks *general);
 #endif //PUSH_SWAP_H

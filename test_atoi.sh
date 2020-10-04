@@ -1,1 +1,0 @@
-gcc testatoi.c -o testatoi -g

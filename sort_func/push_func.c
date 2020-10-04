@@ -1,5 +1,4 @@
 #include "func.h"
-#include "../libft/libft.h"
 
 void		push_a(t_list **top_a, t_list **top_b)
 {

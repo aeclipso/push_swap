@@ -1,1 +1,1 @@
-gcc -g main.c reading.c stringtonumbers.c whitespace.c ./libft-printf/libft.a -I ./include -I ./libft-printf/include
+gcc -g main.c reading.c stringtonumbers.c whitespace.c general.c ./libft-printf/libft.a -I ./include -I ./libft-printf/include

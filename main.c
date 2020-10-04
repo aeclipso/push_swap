@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 03:13:47 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/09/25 17:43:08 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/10/05 02:26:40 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,20 +40,20 @@ static void			ft_lstdebugprintint(t_list *i)
 
 int					ft_core(int argc, char **argv)
 {
-	t_list	*reading_list;
-	t_list	*int_list;
+	t_list			*reading_list;
+	t_list			*int_list;
+	t_stacks		general;
 
 	if (!(ft_reading(argc, argv, &reading_list)))
 	{
 		ft_lstclear(&reading_list, free);
 		ft_error();
-		return (-1);
 	}
  	ft_lstdebugprint(reading_list);
-	ft_stringtonumbers(reading_list, &int_list);				//тут формируется стек А? или числа должны формироваться в обратном порядке
+	ft_stringtonumbers(reading_list, &int_list);
+	ft_creategeneral(&general, int_list);
 	
-	
-
+	ft_cleargeneral(&general);
 	ft_lstclear(&reading_list, free);
 	ft_lstdebugprintint(int_list);
 	ft_lstclear(&int_list, free);
@@ -63,9 +63,5 @@ int					ft_core(int argc, char **argv)
 void				ft_error(void)
 {
 	write(2, "Error\n", 6);
+	exit(1);
 }
-
-/*
-*	TODO: PUSHSWAP:
-*	STR_SPLIT переписать без статических переменных, окда?
-*/

@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/25 16:22:53 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/09/25 17:42:27 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/09/30 10:40:34 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,32 +24,6 @@ int					ft_isdigit(int c)					//TODO: удалить, т.к. есть в либ�
 	}
 }
 
-int					ft_atoi(const char *nptr)
-{
-	size_t			nbr;
-	int				sign;
-
-	sign = 1;
-	nbr = 0;
-	while (*nptr == ' ')
-		nptr++;
-	if (*nptr == '-')
-		sign = -1;
-	if (*nptr == '-' || *nptr == '+')
-		nptr++;
-	while (*nptr)
-	{
-		nbr = nbr * 10 + (*nptr - '0');
-		nptr++;
-	}
-	if (sign == -1 && nbr > 2147483648)
-		return (0);
-	else if (sign == 1 && nbr > 2147483647)
-		return (-1);
-	else
-		return (sign * (int)nbr); //TODO: возможно перенести в либфт, чтобы не было конфликтов ???
-}
-
 int					*ft_createoneint(int value)
 {
 	int				*value_temp;
@@ -60,6 +34,25 @@ int					*ft_createoneint(int value)
 	return (value_temp);
 }
 
+int					ft_checkduplicate(t_list **int_list)
+{
+	t_list			*a;
+	t_list			*b;
+
+	a = *int_list;
+	b = (*int_list)->next;
+	while (a)
+	{
+		b = a->next;
+		while (b)
+		{
+			if (((int *)(a->content))[0] == ((int *)(b->content))[0])
+				ft_error();
+			b = b->next;
+		}
+		a = a->next;
+	}
+}
 /*
 ** TODO: сделать валидацию на инты, чтобы ни больше, ни меньше
 ** TODO: валидация на невалидные аргументы, почему то руинится, если передать строку с буквами
@@ -77,6 +70,7 @@ int			ft_stringtonumbers(t_list *reading_list, t_list **int_list)
 		ft_lstadd_back(int_list, ft_lstnew(ft_createoneint(ft_atoi((char*)reading_list->content)))); //TODO: verylong string FIX
 		reading_list = reading_list->next;
 	}
+	ft_checkduplicate(int_list);
 //	ft_lstdebugprintint(int_list);
 	return (1);
 }
