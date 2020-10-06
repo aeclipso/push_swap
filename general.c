@@ -2,10 +2,10 @@
 #include "./libft-printf/include/libft.h"
 static void	debug_print_str(t_stacks *general)
 {
-	printf("G-GENERAL_ind\t\t%i\n",((t_elemstack *)(general->a_stack->content))->index);
-	printf("G-GENERAL_ind\t\t%i\n",((t_elemstack *)(general->a_stack->next->content))->index);
-	printf("G-GENERAL_ind\t\t%i\n",((t_elemstack *)(general->a_stack->next->next->content))->index);
-	printf("G-LENGEN\t%i\n", general->length);
+	printf("G-GENERAL_ind\t\t%li\n",((t_elemstack *)(general->a_stack->content))->index);
+	printf("G-GENERAL_ind\t\t%li\n",((t_elemstack *)(general->a_stack->next->content))->index);
+	printf("G-GENERAL_ind\t\t%li\n",((t_elemstack *)(general->a_stack->next->next->content))->index);
+	printf("G-LENGEN\t%i\n", general->length_a);
 	printf("G-MIN_GEN\t%i\n", general->min);
 	printf("G-MAX_GEN\t%i\n", general->max);
 }
@@ -115,7 +115,7 @@ static int			indexation(t_stacks *general)
 	int				i;
 
 	i = 0;
-	while (i < general->length)
+	while (i < general->length_a)
 	{
 		ft_findmin_index(general->a_stack, i);
 		i++;
@@ -126,7 +126,7 @@ static int			indexation(t_stacks *general)
 int					ft_creategeneral(t_stacks *general, t_list *int_list)
 {
 	general->a_stack = ft_lstmap(int_list, ft_init_general, free);
-	general->length = ft_lstsize(general->a_stack);
+	general->length_a = ft_lstsize(general->a_stack);
 	general->min = ft_findmin(general->a_stack);
 	general->max = ft_findmax(general->a_stack);
 	indexation(general);

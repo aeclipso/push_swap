@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 03:13:47 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/10/05 02:26:40 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/10/05 03:13:36 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,9 @@ int					ft_core(int argc, char **argv)
  	ft_lstdebugprint(reading_list);
 	ft_stringtonumbers(reading_list, &int_list);
 	ft_creategeneral(&general, int_list);
+
+	ft_zeroflags(&(general.a_stack));
+	ft_markup(&(general.a_stack));
 	
 	ft_cleargeneral(&general);
 	ft_lstclear(&reading_list, free);

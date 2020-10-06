@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Push_Swap_0_0_3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Push_Swap_0_0_3">
+				<Option output="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Push_Swap_0_0_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/include"/>
+					<Add directory="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/include"/>
+					<Add directory="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/sort_func"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Push_Swap_0_0_3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Push_Swap_0_0_3/fast">
+				<Option output="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Push_Swap_0_0_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/include"/>
+					<Add directory="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/include"/>
+					<Add directory="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/sort_func"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Push_Swap_0_0_3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aeclipso/CLionProjects/Push_Swap_0.0.3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/general.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/include/pushswap.h">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_is/ft_isalnum.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_is/ft_isalpha.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_is/ft_isascii.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_is/ft_isdigit.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_is/ft_isprint.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_lst/ft_lstadd_back.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_lst/ft_lstadd_front.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_lst/ft_lstclear.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_lst/ft_lstdelone.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_lst/ft_lstiter.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_lst/ft_lstlast.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_lst/ft_lstmap.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_lst/ft_lstnew.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_lst/ft_lstsize.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_mem/ft_memalloc.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_mem/ft_memccpy.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_mem/ft_memchr.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_mem/ft_memcmp.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_mem/ft_memcpy.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_mem/ft_memdel.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_mem/ft_memmove.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_mem/ft_memset.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_put/ft_putchar.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_put/ft_putchar_fd.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_put/ft_putendl.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_put/ft_putendl_fd.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_put/ft_putnbr.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_put/ft_putnbr_fd.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_put/ft_putstr.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_put/ft_putstr_fd.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strcat.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strchr.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strchrn.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strchrnor.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strclr.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strcmp.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strcpy.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strdel.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strdup.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strdup_prot.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strequ.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_striter.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_striteri.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strjoin.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strjoin_free.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strjoinoneletter.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strlcat.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strlen.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strlen_prot.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strmap.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strmapi.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strncat.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strncmp.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strncpy.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strnequ.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strnew.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strnstr.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strrchr.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strreverse.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strsplit.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strstr.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strsub.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strtolower.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strtoupper.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_str/ft_strtrim.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_atoi.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_bzero.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_itoa.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_itoa_base.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_tolower.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_toupper.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_tozero2.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_tozero2_int.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_tozero3.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_tozero3_int.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_tozero4.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/ft_to/ft_tozero4_int.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/get_next_line.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/include/big_int.h">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/include/ft_printf.h">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/include/libft.h">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/other/ft_copyword.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/other/ft_countw.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/other/ft_lengthcounter.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/other/ft_longover.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/other/ft_power.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/other/ft_whatismyint.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/f_bigint1.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/f_bigint2.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/f_counter1.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/f_counter2.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/f_round.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/f_tochar1.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/f_tochar2.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/f_util.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/f_util2.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/ft_printf.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/manage_buffer.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/manage_csper.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/manage_d.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/manage_f.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/manage_o.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/manage_p.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/manage_u.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/manage_x.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/parser.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/libft-printf/src_ftprintf/utils.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/main.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/markup.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/reading.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/sort_func/func.h">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/sort_func/push_func.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/sort_func/revrot_func.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/sort_func/rotate_func.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/sort_func/swap_func.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/stringtonumbers.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/whitespace.c">
+			<Option target="Push_Swap_0_0_3"/>
+		</Unit>
+		<Unit filename="/home/aeclipso/CLionProjects/Push_Swap_0.0.3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

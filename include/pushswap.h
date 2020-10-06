@@ -7,18 +7,23 @@
 # include <stdio.h> //DEBUG
 # include "../libft-printf/include/libft.h"
 
+/*
+ * length надо сделать так, чтобы при пушинге стеков, в одном уменьшалось,
+ * а в другом увеличивалось
+ */
 typedef struct		s_stacks
 {
 	t_list			*a_stack;
 	t_list			*b_stack;
 	int				min;
 	int				max;
-	int				length;
+	int				length_a;
+	int				length_b;
 }					t_stacks;
 
 typedef struct		s_elemstack
 {
-	int				index;
+	size_t			index;
 	int 			flag_index;
 	int				number;
 }					t_elemstack;
@@ -44,4 +49,7 @@ char			*ft_strdup(const char *s);
 
 int					ft_creategeneral(t_stacks *general, t_list *int_list);
 void				ft_cleargeneral(t_stacks *general);
+
+void				ft_zeroflags(t_list **stack_a);
+void				ft_markup(t_list **stack_a);
 #endif //PUSH_SWAP_H

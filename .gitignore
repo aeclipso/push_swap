@@ -1,2 +1,5 @@
 a.out
 a.out.dSYM
+.idea/*
+CMakeLists.txt
+a.out
