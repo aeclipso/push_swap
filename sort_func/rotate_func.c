@@ -1,36 +1,39 @@
 #include "func.h"
 #include <unistd.h>
 
-void		rotate(t_list **top, char stack)
+void		rotate(t_list **top)
 {
 	t_list	*temp;
 	t_list	*sec;
-	char	r = 'r';
-	char 	n = '\n';
-	
+
 	sec = (*(top))->next;
 	temp = *top;
 	*top = ft_lstlast(*top);
 	(*(top))->next = temp;
 	temp->next = NULL;
 	*top = sec;
-	if (stack == 'a' || stack == 'b')
-	{
-		write(1, &r, 1);
-		write(1, &stack, 1);
-		write(1, &n, 1);
-	}
 }
 
 void		r_rotate(t_list **top_a, t_list **top_b)
 {
-	char	r = 'r';
-	char	n = '\n';
-	
-	rotate(top_a, 'r');
-	rotate(top_b, 'r');
-	
-	write(1, &r, 1);
-	write(1, &r, 1);
-	write(1, &n, 1);
+	rotate(top_a);
+	rotate(top_b);
+}
+
+void		do_ra(t_list **top_a)
+{
+	rotate(top_a);
+	ft_printf("ra\n");
+}
+
+void		do_rb(t_list **top_b)
+{
+	rotate(top_b);
+	ft_printf("rb\n");
+}
+
+void		do_rr(t_list **top_a, t_list **top_b)
+{
+	r_rotate(top_a, top_b);
+	printf("rr\n");
 }

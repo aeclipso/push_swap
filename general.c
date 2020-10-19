@@ -1,11 +1,12 @@
 #include "./include/pushswap.h"
 #include "./libft-printf/include/libft.h"
-static void	debug_print_str(t_stacks *general)
+
+static void	debug_print_str(t_stacks *general) //здесь сегается на 1 и на 2 элементах, потому что пытается распечатать следующий
 {
 	printf("G-GENERAL_ind\t\t%li\n",((t_elemstack *)(general->a_stack->content))->index);
 	printf("G-GENERAL_ind\t\t%li\n",((t_elemstack *)(general->a_stack->next->content))->index);
 	printf("G-GENERAL_ind\t\t%li\n",((t_elemstack *)(general->a_stack->next->next->content))->index);
-	printf("G-LENGEN\t%i\n", general->length_a);
+	printf("G-LENGEN\t%li\n", general->length_a);
 	printf("G-MIN_GEN\t%i\n", general->min);
 	printf("G-MAX_GEN\t%i\n", general->max);
 }
@@ -130,7 +131,7 @@ int					ft_creategeneral(t_stacks *general, t_list *int_list)
 	general->min = ft_findmin(general->a_stack);
 	general->max = ft_findmax(general->a_stack);
 	indexation(general);
-	debug_print_str(general);
+	// debug_print_str(general);
 }
 
 void				ft_cleargeneral(t_stacks *general)

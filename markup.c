@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/05 02:29:23 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/10/05 03:15:10 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/10/06 21:02:09 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,13 +23,12 @@ void				ft_zeroflags(t_list **stack_a)
 	}
 	*stack_a = save;
 }
+
 void				ft_markup(t_list **stack_a)
 {
-	int				max_order;
 	t_list			*prev;
 	t_list			*save;
-
-	max_order = 0;
+	
 	prev = *stack_a;
 	save = *stack_a;
 	if ((*stack_a)->next)

@@ -26,4 +26,14 @@ void		push_b(t_list **top_a, t_list **top_b)
 	*top_a = temp;
 }
 
-//TODO: придумать, как будут выводиться команды
+void		do_push_a(t_list **top_a, t_list **top_b)
+{
+	push_a(top_a, top_b);
+	ft_printf("pa\n");
+}
+
+void		do_push_b(t_list **top_a, t_list **top_b)
+{
+	push_b(top_a, top_b);
+	ft_printf("pb\n");
+}

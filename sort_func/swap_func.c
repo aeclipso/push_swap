@@ -1,12 +1,10 @@
 #include "func.h"
 #include <unistd.h>
 
-void		swap(t_list **top, char stack)
+void		swap(t_list **top)
 {
 	t_list	*temp;
 	t_list	*sec;
-	char	s = 's';
-	char	n = '\n';
 	
 	if (!(*top) || !(*(top))->next)
 		return ;
@@ -15,22 +13,28 @@ void		swap(t_list **top, char stack)
 	sec = (*(top))->next;
 	(*(top))->next = temp;
 	temp->next = sec;
-	if (stack == 'a' || stack == 'b')
-	{
-		write(1, &s, 1);
-		write(1, &stack, 1);
-		write(1, &n, 1);
-	}
 }
 
 void		s_swap(t_list **top_a, t_list **top_b)
 {
-	char	s = 's';
-	char	n = '\n';
-	
-	swap(top_a, 's');
-	swap(top_b, 's');
-	write(1, &s, 1);
-	write(1, &s, 1);
-	write(1, &n, 1);
+	swap(top_a);
+	swap(top_b);
+}
+
+void		do_sa(t_list **top_a)
+{
+	swap(top_a);
+	ft_printf("sa\n");
+}
+
+void		do_sb(t_list **top_b)
+{
+	swap(top_b);
+	ft_printf("sb\n");
+}
+
+void		do_ss(t_list **top_a, t_list **top_b)
+{
+	s_swap(top_a, top_b);
+	ft_printf("ss\n");
 }
