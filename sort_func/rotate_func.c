@@ -35,5 +35,5 @@ void		do_rb(t_list **top_b)
 void		do_rr(t_list **top_a, t_list **top_b)
 {
 	r_rotate(top_a, top_b);
-	printf("rr\n");
+	ft_printf("rr\n");
 }

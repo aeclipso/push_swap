@@ -3,13 +3,16 @@
 #include <stdlib.h>
 #include "../libft-printf/include/libft.h"
 
-void		push_a(t_list **top_a, t_list **top_b);
-void		push_b(t_list **top_a, t_list **top_b);
-void		rotate(t_list **top, char stack);
-void		r_rotate(t_list **top_a, t_list **top_b);
-void		rerotate(t_list **top, char stack);
-void		r_rerotate(t_list **top_a, t_list **top_b);
-void		swap(t_list **top, char stack);
-void		s_swap(t_list **top_a, t_list **top_b);
+void		do_push_a(t_list **top_a, t_list **top_b);
+void		do_push_b(t_list **top_a, t_list **top_b);
+void		do_rra(t_list **top_a);
+void		do_rrb(t_list **top_b);
+void		do_rrr(t_list **top_a, t_list **top_b);
+void		do_ra(t_list **top_a);
+void		do_rb(t_list **top_b);
+void		do_rr(t_list **top_a, t_list **top_b);
+void		do_sa(t_list **top_a);
+void		do_sb(t_list **top_b);
+void		do_ss(t_list **top_a, t_list **top_b);
 
 #endif //SORT_FUNC_H

@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 03:22:24 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/09/25 16:46:30 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/10/20 01:07:05 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ int			ft_validateint(t_list *struct_list)
 			return (0);
 		if (len >= 10 && nbr == -1)
 			return (0);
-		printf("VAL\t\t%i\n", nbr);
+		// printf("VAL\t\t%i\n", nbr);
 		if (nbr > 2147483647 && nbr < -2147483648)
 			return (0);
 		struct_list = struct_list->next;

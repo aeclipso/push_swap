@@ -34,5 +34,5 @@ void		do_rrb(t_list **top_b)
 void		do_rrr(t_list **top_a, t_list **top_b)
 {
 	r_rerotate(top_a, top_b);
-	printf("rrr\n");
+	ft_printf("rrr\n");
 }

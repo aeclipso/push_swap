@@ -1,1 +1,1 @@
-gcc -g main.c reading.c stringtonumbers.c whitespace.c general.c markup.c solver.c ./libft-printf/libft.a -I ./include -I ./libft-printf/include
+gcc -g main.c reading.c stringtonumbers.c whitespace.c general.c markup.c solver.c ./sort_func/swap_func.c ./sort_func/revrot_func.c ./sort_func/push_func.c ./sort_func/rotate_func.c ./libft-printf/libft.a -I ./include -I ./libft-printf/include

@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 03:13:47 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/10/19 18:37:01 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/10/20 12:11:09 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,18 @@ int					main(int argc, char **argv)
 	{
 		ft_core(argc, argv);
 	}
+}
+
+static void			ft_lstdebugcircle(t_stacks *general)
+{
+	t_list			*a = general->a_stack;
+	
+	while (a)
+	{
+		printf("III\t%i\n", ((t_elemstack *)(a->content))->number);
+		a = a->next;
+	}
+	
 }
 
 static void			ft_lstdebugprint(t_list *i)
@@ -57,6 +69,7 @@ int					ft_core(int argc, char **argv)
 	ft_markup(&(general.a_stack));
 	
 	main_solver(&general);
+	ft_lstdebugcircle(&general);
 	// ft_cleargeneral(&general);
 	// ft_lstclear(&reading_list, free);
 	// ft_lstdebugprintint(int_list);

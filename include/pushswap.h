@@ -6,7 +6,10 @@
 //# include "libft.h"
 # include <stdio.h> //DEBUG
 # include "../libft-printf/include/libft.h"
-
+# define GIANT 500
+# define BIG 100
+# define FIVE 5
+# define THREE 3
 /*
  * length надо сделать так, чтобы при пушинге стеков, в одном уменьшалось,
  * а в другом увеличивалось
