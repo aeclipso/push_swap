@@ -127,7 +127,10 @@ static int			indexation(t_stacks *general)
 int					ft_creategeneral(t_stacks *general, t_list *int_list)
 {
 	general->a_stack = ft_lstmap(int_list, ft_init_general, free);
+	general->b_stack = NULL;
 	general->length_a = ft_lstsize(general->a_stack);
+	general->length_b = 0;
+	general->start_len = general->length_a;
 	general->min = ft_findmin(general->a_stack);
 	general->max = ft_findmax(general->a_stack);
 	indexation(general);

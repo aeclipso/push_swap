@@ -10,6 +10,9 @@
 # define BIG 100
 # define FIVE 5
 # define THREE 3
+# define A a_stack
+# define B b_stack
+# define G general
 /*
  * length надо сделать так, чтобы при пушинге стеков, в одном уменьшалось,
  * а в другом увеличивалось
@@ -22,6 +25,7 @@ typedef struct		s_stacks
 	int				max;
 	size_t			length_a;
 	size_t			length_b;
+	size_t			start_len;
 }					t_stacks;
 
 typedef struct		s_elemstack
@@ -45,14 +49,22 @@ int					ft_checkstring(char *s);
 int					ft_startcheck(t_list *node);
 int					ft_whitespace(char *str);
 
-size_t				ft_strlen(const char *str);
-char				*ft_strdup(const char *s);
-
 int					ft_creategeneral(t_stacks *general, t_list *int_list);
 void				ft_cleargeneral(t_stacks *general);
 
 void				ft_zeroflags(t_list **stack_a);
 void				ft_markup(t_list **stack_a);
 
+int					is_sort(t_list **stack);
+int					is_revsort(t_list **stack);
+
 int					main_solver(t_stacks *general);
+
+/*
+**	sorts
+*/
+void				five_sort(t_stacks *general);
+void				three_sort(t_stacks *general);
+void				two_sort(t_stacks *general);
+
 #endif //PUSH_SWAP_H

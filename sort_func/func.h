@@ -2,9 +2,9 @@
 #define SORT_FUNC_H
 #include <stdlib.h>
 #include "../libft-printf/include/libft.h"
-
-void		do_push_a(t_list **top_a, t_list **top_b);
-void		do_push_b(t_list **top_a, t_list **top_b);
+#include "pushswap.h"
+void		do_push_a(t_list **top_a, t_list **top_b, t_stacks *general);
+void		do_push_b(t_list **top_a, t_list **top_b, t_stacks *general);
 void		do_rra(t_list **top_a);
 void		do_rrb(t_list **top_b);
 void		do_rrr(t_list **top_a, t_list **top_b);
