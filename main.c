@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 03:13:47 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/10/20 18:52:20 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/11/08 00:19:07 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ static void			ft_lstdebugcircle(t_stacks *general)
 	
 	while (a)
 	{
-		printf("III\t%i\n", ((t_elemstack *)(a->content))->number);
+		printf("IIA\t%i\n", ((t_elemstack *)(a->content))->number);
 		a = a->next;
 	}
 
@@ -35,9 +35,7 @@ static void			ft_lstdebugcircle(t_stacks *general)
 	{
 		printf("IIB\t%i\n", ((t_elemstack *)(b->content))->number);
 		b = b->next;
-	}
-	
-	
+	}	
 }
 
 static void			ft_lstdebugprint(t_list *i)
@@ -58,26 +56,26 @@ static void			ft_lstdebugprintint(t_list *i)
 	}
 }
 
+
+
 int					ft_core(int argc, char **argv)
 {
 	t_list			*reading_list;
 	t_list			*int_list;
 	t_stacks		general;
-
 	if (!(ft_reading(argc, argv, &reading_list)))
 	{
 		ft_lstclear(&reading_list, free);
 		ft_error();
 	}
- 	ft_lstdebugprint(reading_list);
+ 	// ft_lstdebugprint(reading_list);
 	ft_stringtonumbers(reading_list, &int_list);
 	ft_creategeneral(&general, int_list);
 
 	ft_zeroflags(&(general.a_stack));
 	ft_markup(&(general.a_stack));
-	
 	main_solver(&general);
-	ft_lstdebugcircle(&general);
+	// ft_lstdebugcircle(&general);
 	// ft_cleargeneral(&general);
 	// ft_lstclear(&reading_list, free);
 	// ft_lstdebugprintint(int_list);

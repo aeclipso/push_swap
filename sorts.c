@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/21 09:56:13 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/10/21 21:16:53 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/11/07 23:55:32 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,6 +104,25 @@ void		five_sort(t_stacks *general)
 				do_push_a(&(G->A), &(G->B), general);
 			else if (G->length_b > 1)
 				do_rb(&(G->B));  //функция расчета куда крутить
+			else
+			{
+				t_list		*shufle_a = general->a_stack;
+				t_list		*shufle_b = general->b_stack;
+
+				while (shufle_a)
+				{
+					ft_printf("ST_A:\n%i\n", ((t_elemstack *)(shufle_a->content))->number);
+					shufle_a = shufle_a->next;
+				}
+				while (shufle_b)
+				{
+					ft_printf("ST_B:\n%i\n", ((t_elemstack *)(shufle_b->content))->number);
+					ft_printf("LEN_B:\t%i\n", general->length_b);
+					shufle_b = shufle_b->next;
+				}
+			}
 		}
 	}
 }
+
+//TODO: на 4 элементах в бесконечность

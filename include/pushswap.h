@@ -13,6 +13,8 @@
 # define A a_stack
 # define B b_stack
 # define G general
+# define FORVARD_B 100
+# define BACK_B 200
 /*
  * length надо сделать так, чтобы при пушинге стеков, в одном уменьшалось,
  * а в другом увеличивалось

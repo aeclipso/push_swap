@@ -6,7 +6,7 @@
 /*   By: aeclipso <aeclipso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/06 03:22:24 by aeclipso          #+#    #+#             */
-/*   Updated: 2020/10/20 01:07:05 by aeclipso         ###   ########.fr       */
+/*   Updated: 2020/11/08 00:09:20 by aeclipso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,7 +115,7 @@ int			ft_reading(int argc, char **argv, t_list **struct_list)
 	}
 	if (!ft_validateint(shuffle))
 		return (0);
-	printf("MAXMINVAL\t%i\n", ft_validateint(shuffle));
+	// printf("MAXMINVAL\t%i\n", ft_validateint(shuffle));
 //	ft_lstdebugprint(*struct_list);
 	return (1);
 }
